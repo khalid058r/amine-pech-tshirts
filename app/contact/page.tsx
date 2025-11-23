@@ -53,8 +53,26 @@ Email: ${formData.email}`
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 z-0">
+        {/* Background Images */}
+        <div className="absolute inset-0 opacity-10">
+          <img
+            src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+            className="absolute top-0 right-0 w-1/3 h-1/3 object-cover"
+          />
+          <img
+            src="https://images.pexels.com/photos/1381559/pexels-photo-1381559.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+            className="absolute bottom-0 left-0 w-1/3 h-1/3 object-cover"
+          />
+          <img
+            src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt=""
+            className="absolute top-1/3 left-1/3 w-1/3 h-1/3 object-cover"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20"></div>
-        <div 
+        <div
           className="absolute inset-0 opacity-30"
           style={{
             background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(139, 92, 246, 0.15), transparent 40%)`,
